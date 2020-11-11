@@ -158,8 +158,8 @@ for parametro in df_paciente.columns[1:8]:
     dff = df_paciente.copy()
     dff = dff.groupby(["Data da Consulta"], as_index=False)[[parametro]].sum()
     dff.columns = ["ds", "y"]
-    model = Prophet(mcmc_samples=100, interval_width=0.95)
-    model.fit(dff, control={'max_treedepth': 20})
+    model = Prophet(mcmc_samples=80, interval_width=0.95)
+    model.fit(dff, control={'max_treedepth': 6})
     forecast = model.predict(model.make_future_dataframe(periods=45))
     try:
       forecast_paciente[parametro]["Forecast"] = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
