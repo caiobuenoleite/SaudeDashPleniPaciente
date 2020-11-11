@@ -1,4 +1,4 @@
-pytho==3.9
+python==3.9
 wheel==0.34.2
 pip==20.0.2
 absl-py==0.10.0
