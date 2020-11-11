@@ -19,7 +19,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dash
 import dash_bootstrap_components as dbc
-import textwrap
+import textwrap3
 from plotly.subplots import make_subplots
 from datetime import datetime as dt
 from fbprophet import Prophet
