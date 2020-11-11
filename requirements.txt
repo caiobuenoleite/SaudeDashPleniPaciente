@@ -1,6 +1,6 @@
-python==3.9
-wheel==0.34.2
-pip==20.0.2
+python
+wheel
+pip
 absl-py==0.10.0
 alabaster==0.7.12
 albumentations==0.1.12
