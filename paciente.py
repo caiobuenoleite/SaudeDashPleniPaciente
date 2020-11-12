@@ -13,10 +13,6 @@ import dash_bootstrap_components as dbc
 import textwrap
 from plotly.subplots import make_subplots
 from datetime import datetime as dt
-from fbprophet import Prophet
-from fbprophet.plot import add_changepoints_to_plot
-from fbprophet.plot import plot_plotly, plot_components_plotly
-from collections import defaultdict
 from jupyter_dash import JupyterDash
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
