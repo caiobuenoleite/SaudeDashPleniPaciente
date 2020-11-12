@@ -304,6 +304,7 @@ df_new_table["valor"] = df_new_table["valor"].astype(str)
 df_new_table["valor_final"] = df_new_table['valor'].str.cat(df_new_table['Unidades'],sep=" ")
 df_new_table = df_new_table.drop(['var','Unidades','valor'], axis=1)
 df_new_table = df_new_table.drop([7,8])
+
 app = JupyterDash(__name__, title="PLENI")
 server=app.server
 
