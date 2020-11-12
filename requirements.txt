@@ -331,7 +331,7 @@ sqlparse==0.4.1
 srsly==1.0.2
 statsmodels==0.10.2
 sympy==1.1.1
-tables==3.4.4
+
 tabulate==0.8.7
 tblib==1.7.0
 tensorboard==2.3.0
