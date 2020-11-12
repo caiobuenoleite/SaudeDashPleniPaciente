@@ -94,7 +94,7 @@ Flask-Compress==1.8.0
 folium==0.8.3
 future==0.16.0
 gast==0.3.3
-GDAL==2.2.2
+GDAL==3.2.0
 gdown==3.6.4
 gensim==3.6.0
 geographiclib==1.50
