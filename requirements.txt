@@ -33,8 +33,8 @@ chainer==7.4.0
 chardet==3.0.4
 click==7.1.2
 cloudpickle==1.3.0
-cmake==3.12.0
 
+cmdstanpy==0.9.5
 colorlover==0.3.0
 community==1.0.0b1
 contextlib2==0.5.5
